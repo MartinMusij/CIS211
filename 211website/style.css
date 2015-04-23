@@ -1,0 +1,24 @@
+header {
+	background-color: #C7C7CF ;
+    color: #8BA0B3 ;
+}
+body {
+background-color: #CBAE74 ;
+color: #8FD6D2 ;
+}
+footer{
+	background-color: #F7F4ED;
+	color: #3A291F;
+}
+.mainContent {
+	background-color: #4F7491 ;
+	color: #F7F4ED  ;
+}
+div h2 {
+	background-color: #F7F4ED ;
+	color: #8FD6D2 ;
+}
+.highlight{
+	background-color: yellow ;
+	color: black;
+}

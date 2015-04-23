@@ -1,0 +1,85 @@
+body { background-color: #F5F5DC;
+      background-image: url(javabackground.gif);
+	  font-family: Verdana, Arial, sans-serif;
+      color: #2E0000;
+}
+#wrapper { margin-left: auto;
+           margin-right: auto;
+		   width: 80%;
+		   min-width: 960px;
+		   background-color: #E2D2BO;
+		   box-shadow: 5px 5px 5px #2E0000;
+}
+header { background-color: #D2B48C;
+}
+h1 { background-image: url(javalogo.gif); 
+    background-position: center;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	height: 100px;
+	margin-bottom: 0px ;
+}
+h3 { text-transform: uppercase;
+background-color: #E2D2BO ; 
+}
+nav { font-weight: bold;
+      text-align: center; 
+      float: left;
+      width: 160px;
+}
+
+nav a{
+	text-decoration: none;
+}
+nav a:link {
+	color: #795240;
+}
+nav a:visited {
+	color: #A58366;
+}
+nav a:hover {
+	color: #F5F5DC;
+}
+#content { padding: 1px 20px 20px 20px; 
+	background-color: #F5F5DC;
+	margin-left: 175px; 
+}
+#content img {
+	float: left ;
+	padding-left: 40px ;
+	padding-right: 40px ;
+}
+#content ul {
+	list-style-position: inside;
+}
+#content div {
+	overflow: auto;
+	padding-left: 40px ;
+	padding-right: 40px;
+}
+dt { font-weight: bold; 
+}
+img { border-style: none; }
+#content ul { list-style-image: url(marker.gif); 
+}
+nav ul { list-style-position: inside ;
+	list-style-type: none ;
+	padding-left: 0px;
+	font-size: 1.2em ;
+}
+footer { background-color: #D2B48C;
+       color: #000000;
+	   padding: 20px;
+	   font-size: .60em;
+	   font-style: italic;
+	   text-align: center;
+}	   
+footer a:link {
+color : #2E0000; 
+}
+footer a:visited {
+	color: #000000;
+}
+footer a:hover {
+	color : #F5F5DC;
+}

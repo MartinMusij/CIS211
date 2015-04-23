@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+}
+
+.navbar {
+	background-color:rgba(255, 255, 255, 0.8);
+	width: 100%;
+	position: fixed;
+	max-width: auto;
+}
+.navbar ul {
+margin-right: 3%;
+position: relative;
+}
+.navbar li {
+	height: 3%;
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: gray;
+
+}
+.navbar a {
+	text-decoration: none;
+}
+.navbar .logo { position: relative;
+margin-top: 0;
+margin-left: 200px;
+margin-bottom: 0px;}
+nav ul ul {
+	display: none;
+}
+	nav ul li:hover > ul {
+		text-align: center;
+		z-index: 100;
+		display: block;
+		max-width: 120px;
+		padding: 5px;
+		right: -8px;
+	    position: absolute;
+	}
+nav ul ul a {color: blue}
+nav ul {
+	float: right;
+	padding: 13px;
+	margin-right: 200px;
+}
+
+:visited {color: gray;
+}
+:hover { color: black;
+	}
+	#info {
+		text-align: center;
+		padding-top: 3%;
+	}
+	#info h1 {
+		margin: 0;
+		margin-top: 21px;
+	}
+	#info p {
+		margin: 0;
+		margin-top: 2px;
+		margin-bottom: 15px;
+	}
+.coverimg {
+	margin-top: none;
+	max-width: 100%;
+}
+
+.leftcolumn {
+	float: left;
+	margin-top: 5%;
+	margin-left: 10%;
+	}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #336699;
+    box-shadow: inset 0px 10px 19px -1px rgba(0,0,0,0.53);
+}
+.footertext{
+	text-align: center;
+	margin-top: 20px;
+}
